@@ -1,12 +1,11 @@
 # 🤖 UiPath RPA Project – Automation Challenges
 
-This repository contains two RPA workflows built with **UiPath** to automate real-world tasks inspired by popular RPA challenges. The goal is to demonstrate both **data-driven automation** and **web interaction** using UiPath.
+This repository contains two RPA workflows built with **UiPath** to automate real-world tasks inspired by popular RPA challenges. 
 
 ---
-
 ## 📌 Prerequisites
 
-- UiPath Studio (2021 or later recommended)
+- UiPath Studio 
 - Installed dependencies:
   - `UiPath.Excel.Activities`
   - `UiPath.System.Activities`
