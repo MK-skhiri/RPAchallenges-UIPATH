@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Défi de l’automatisation - OCR",
+  "Type": "App",
+  "Id": "v2kO5TtnyUaXLLR-Q6FXQA",
+  "Reference": "5uJU6KKMbUCAH6eenDtpvA/v2kO5TtnyUaXLLR-Q6FXQA",
+  "Created": "2025-04-18T08:31:20.2477227Z",
+  "Updated": "2025-04-18T08:31:20.2477227Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

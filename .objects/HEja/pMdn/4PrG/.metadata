@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge différence entre if et workflow decision",
+  "Type": "Screen",
+  "Id": "4PrGkNApW0a7_VTAJwwj_g",
+  "Reference": "5uJU6KKMbUCAH6eenDtpvA/4PrGkNApW0a7_VTAJwwj_g",
+  "ParentRef": "5uJU6KKMbUCAH6eenDtpvA/pMdnEo6ZokOC4RZu5h_xMQ",
+  "Created": "2025-04-16T14:05:23.1483489Z",
+  "Updated": "2025-04-16T14:05:23.1483489Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

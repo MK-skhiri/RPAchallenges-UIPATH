@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Rpa stock market",
+  "Type": "Screen",
+  "Id": "69RI60SUiEaNHqdSSCThzw",
+  "Reference": "5uJU6KKMbUCAH6eenDtpvA/69RI60SUiEaNHqdSSCThzw",
+  "ParentRef": "5uJU6KKMbUCAH6eenDtpvA/j89JKoWw4kKGdzCrZ4u_yw",
+  "Created": "2025-04-11T11:08:25.3064744Z",
+  "Updated": "2025-04-11T11:08:30.0154963Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

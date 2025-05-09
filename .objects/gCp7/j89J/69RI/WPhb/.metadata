@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Recherche",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "WPhbYD6aYEW6dg1C1E0u9A",
+  "Reference": "5uJU6KKMbUCAH6eenDtpvA/WPhbYD6aYEW6dg1C1E0u9A",
+  "ParentRef": "5uJU6KKMbUCAH6eenDtpvA/69RI60SUiEaNHqdSSCThzw",
+  "Created": "2025-04-11T11:20:16.725079Z",
+  "Updated": "2025-04-11T13:07:14.4767174Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

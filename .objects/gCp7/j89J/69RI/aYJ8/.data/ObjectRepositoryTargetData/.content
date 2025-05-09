@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hsVCvfWLZEO0txfI_sgJDA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/assets/rpaStockMarket/index.html" DesignTimeRectangle="323, 518, 141, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='cnt' tag='SPAN' type='' class='' /&gt;" Guid="5bd2d8a5-2cde-4015-8ebb-a03cb08a7e38" ScopeSelectorArgument="&lt;html app='msedge.exe' title='RPA Stock Market' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="34592207-77cf-4ebf-8542-106cbcb2b96b" CvTextArea="368, 495, 96, 16" CvTextArgument="PREMARKET" CvType="Text" DesignTimeRectangle="370, 493, 94, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H6' type='' class='' aaname='PREMARKET' check:innerText='PREMARKET' /&gt;" Guid="6f3e8476-89a5-42d0-be8f-0096df287dc0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="bcccde945fa25c444e853fd4c7efe64e.png" xmlns="">0agayAawVrUOx2b-mRPe98w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

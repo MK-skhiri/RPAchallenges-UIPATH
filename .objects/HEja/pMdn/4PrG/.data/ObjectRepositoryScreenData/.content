@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="-zQJrwNOxkKlDQlc6F545w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-9, -9, 1938, 1038" BrowserType="Edge" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHqSURBVDhPpZO7S1thGMZzg0AgQ6DJFDKEJEsyNMGcY82g5A9oZoNKc3HQsXWs0KoJMZqYW6OYtEIRSqqTUFxKNlEoWPxTils7PP2et56TE6RD6YEf5708zwvfzaa+C8UvBf4Reui1/XwowOPxwOv1mqJgMCgYOXvUGLmCXjNBKpXEcHiMaDQieaHwQmAciUSkR43Vo5gkmqZhPP6Ko6M+Zmd1lMtFRQm6rkuNPWqsHsWfwOFwYGFhHo3GHpLJp/I/P/8sWGvUUDs1wOVyYXPzNUajT7i8/IJmcx+npx9xf/9DYMwae9RQS485wO12YzA4RiaTQSAQQCwWQ61WxfX1FW5urnBw0EA8Hoff7xcNtfRMDej3ewiHw0r0BJXKNkqlItbX14TV1TIOD99Jn1D7aECv18Xc3DP17yCfX5QmhxDGS0t5nJ2NkM1mRfNowHA4QLW6I4OMTdrYeKl4JTFr3W5baSqinRrgdDqxsrKMk5P3aLdbsNvtyOWe4/b2m8CYtVarqTQfREuPOcBA1zXZMJ5/p9PC1tZbxRuJWeNJ8H5YPYpJkk7P4O7uO+r1Gnw+n1p/QWC8u1uTnqalrWYySXhUXLfxHorFgsCYNe5HIpEw9Q9MHhMvh+WCIBQKCX/rK+Qx/cdztl38BsTMn9eWON2lAAAAAElFTkSuQmCC" Selector="&lt;html app='msedge.exe' title='différence entre if et workflow decision dans uipath' /&gt;" Title="différence entre if et workflow decision dans uipath" Url="https://www.perplexity.ai/search/difference-entre-if-et-workflo-sNEE_rZcS2qb.M5HuuoTNw" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="4d58a9edfcb9f9fc8406ff86753defb9.jpg" xmlns="">0fr7eAry8yESCiEQykRVaiw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

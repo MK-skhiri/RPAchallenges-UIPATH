@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="kFs3Kt01oU6haCIK6h8rxw" Reference="5uJU6KKMbUCAH6eenDtpvA/ItszCyVzNkiNxRyDIjcAzw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/assets/rpaStockMarket/index.html" CVScreenId="e600881a-0fc7-45e7-88f3-82e0e527c52b" CvElementArea="61, 300, 205, 32" CvType="InputBox" DesignTimeRectangle="64, 334, 200, 28" DesignTimeScaleFactor="1.25" ElementType="DropDown" FuzzyMatches="10000" FuzzySelectorArgument="&lt;webctrl id='country' tag='SELECT' type='' class='' aaname='' /&gt;" Guid="94b5f48b-75ff-469f-b018-89cac60d2a7b" ImageBase64="" ScopeSelectorArgument="&lt;html app='msedge.exe' title='RPA Stock Market' id='country' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="141bed6fab43aa257152d6236fb0f5f8.png" xmlns="">0gVnoBUS1cU-RaWRcKiIIaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

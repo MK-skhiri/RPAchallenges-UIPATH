@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RQib4iOmHEKHM8l37hSNHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com/assets/rpaStockMarket/index.html" CVScreenId="9311a7c5-eafb-419a-b6c7-23aa2ae91667" CvElementArea="266, 387, 32, 32" CvType="Button" DesignTimeRectangle="269, 390, 27, 27" DesignTimeScaleFactor="1.25" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='image' class='' aaname='' /&gt;" Guid="0dec4890-b52b-4f12-a60c-1cf3851f5a69" ScopeSelectorArgument="&lt;html app='msedge.exe' title='RPA Stock Market' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9311a7c5-eafb-419a-b6c7-23aa2ae91667" CvTextArea="311, 397, 41, 18" CvTextArgument="XOM" CvType="Text" DesignTimeRectangle="313, 395, 42, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='XOM' tag='SPAN' type='' class='' check:innerText='XOM' /&gt;" Guid="75065e6a-7c61-430b-9bdb-94a0b982ec18" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="eeaba7329a1c7e5592c7b752f1103b6f.png" xmlns="">0o8Kc_7EDWkOuf8Xf0qiSqA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
