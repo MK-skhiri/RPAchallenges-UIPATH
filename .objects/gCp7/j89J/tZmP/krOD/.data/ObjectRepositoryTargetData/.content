@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1nzbyXw4EUuZk3EOW3-ysg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="27fee652-5129-4683-9cca-77bba25d098e" CvElementArea="24, 933, 450, 74" CvTextArea="219, 961, 60, 17" CvTextArgument="START" CvType="Button" DesignTimeRectangle="24, 933, 450, 74" DesignTimeScaleFactor="1.25" ElementType="Button" Guid="74f2cf4d-e437-4b32-bac4-04245a56ad09" ScopeSelectorArgument="&lt;wnd app='msedge.exe' cls='Chrome_WidgetWin_1' title='Rpa Challenge et 11 pages de plus - Personnel – Microsoft​ Edge' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="72770318c2bbaccae84df75082bc14e3.png" xmlns="">0DiIV7vNmiEGU5sgMmmcODw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

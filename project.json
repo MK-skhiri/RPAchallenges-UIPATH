@@ -15,7 +15,6 @@
   "studioVersion": "25.0.161.0",
   "projectVersion": "1.0.198409028",
   "runtimeOptions": {
-    "exceptionHandlerWorkflow": "workflows\\Gestionnaireglobal.xaml",
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
     "isPausable": true,

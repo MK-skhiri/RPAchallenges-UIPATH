@@ -107,17 +107,22 @@
       <AssemblyReference>System.Linq.Expressions</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="RPAstockMarketChallenge" sap:VirtualizedContainerService.HintSize="767.2,2334.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="RPAstockMarketChallenge" sap:VirtualizedContainerService.HintSize="906,2294" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_ChallengeData" />
       <Variable x:TypeArguments="x:String" Name="dt_MarketValue" />
+      <Variable x:TypeArguments="x:String" Name="dt_ExcelFileName">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Files\RPAmarket.xlsx</Literal>
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch RPAMarketchallenge" sap:VirtualizedContainerService.HintSize="571.2,2311.2" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch RPAMarketchallenge" sap:VirtualizedContainerService.HintSize="573,2271" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -134,13 +139,13 @@
         </Sequence>
       </TryCatch.Finally>
       <TryCatch.Try>
-        <Sequence DisplayName="Essayer" sap:VirtualizedContainerService.HintSize="569.6,2096" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence DisplayName="Essayer" sap:VirtualizedContainerService.HintSize="571,2055" sap2010:WorkflowViewState.IdRef="Sequence_6">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_ChallengeData]" DisplayName="Read Range Workbook company market" sap:VirtualizedContainerService.HintSize="536,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="Files\RPAmarket.xlsx">
+          <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_ChallengeData]" DisplayName="Read Range Workbook company market" sap:VirtualizedContainerService.HintSize="537,120" sap2010:WorkflowViewState.IdRef="ReadRange_1" SheetName="Sheet1" WorkbookPath="[dt_ExcelFileName]">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -148,19 +153,19 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </ui:ReadRange>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Rpa stock market" sap:VirtualizedContainerService.HintSize="536,1776.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="4010cbc7-79d9-455b-a56c-56657f95f959" Version="V2">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Rpa stock market" sap:VirtualizedContainerService.HintSize="537,1736" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="4010cbc7-79d9-455b-a56c-56657f95f959" Version="V2">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence sap:VirtualizedContainerService.HintSize="502.4,1488" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <Sequence sap:VirtualizedContainerService.HintSize="503,1487" sap2010:WorkflowViewState.IdRef="Sequence_5">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_ChallengeData]" DisplayName="For Each Row in Data Table from excel file" sap:VirtualizedContainerService.HintSize="468.8,1426.4" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+                  <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_ChallengeData]" DisplayName="For Each Row in Data Table from excel file" sap:VirtualizedContainerService.HintSize="469,1425" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
                     <ui:ForEachRow.Body>
                       <ActivityAction x:TypeArguments="sd:DataRow">
                         <ActivityAction.Argument>

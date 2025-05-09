@@ -128,19 +128,21 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Casdetest" sap:VirtualizedContainerService.HintSize="935.2,2509" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Casdetest" sap:VirtualizedContainerService.HintSize="906,3123" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_tableReadRange" />
+      <Variable x:TypeArguments="x:String" Name="ExcelFile">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">Files\challenge.xlsx</Literal>
+        </Variable.Default>
+      </Variable>
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch read range" sap:VirtualizedContainerService.HintSize="520,359" sap2010:WorkflowViewState.IdRef="TryCatch_1">
-      <TryCatch.Variables>
-        <Variable x:TypeArguments="x:String" Default="Files\RPAinputdata.xlsx" Name="ExcelFile" />
-      </TryCatch.Variables>
+    <TryCatch DisplayName="Try Catch read range" sap:VirtualizedContainerService.HintSize="520,309" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -181,25 +183,25 @@
         </Sequence>
       </TryCatch.Finally>
     </TryCatch>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_tableReadRange]" DisplayName="For Each Row in Data Table : tableReadRange" sap:VirtualizedContainerService.HintSize="520,2127" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_tableReadRange]" DisplayName="For Each Row in Data Table : tableReadRange" sap:VirtualizedContainerService.HintSize="520,2791" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="518,1956" sap2010:WorkflowViewState.IdRef="Sequence_9">
+          <Sequence DisplayName="Corps" sap:VirtualizedContainerService.HintSize="518,2620" sap2010:WorkflowViewState.IdRef="Sequence_9">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="write data in site web" sap:VirtualizedContainerService.HintSize="484,1896" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="4010cbc7-79d9-455b-a56c-56657f95f959" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="write data in site web" sap:VirtualizedContainerService.HintSize="484,2560" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="4010cbc7-79d9-455b-a56c-56657f95f959" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Faire : saisie des données" sap:VirtualizedContainerService.HintSize="450,1656" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <Sequence DisplayName="Faire : saisie des données" sap:VirtualizedContainerService.HintSize="450,2280" sap2010:WorkflowViewState.IdRef="Sequence_8">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -259,7 +261,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Phone Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="DebuggerApi" ScopeIdentifier="4010cbc7-79d9-455b-a56c-56657f95f959" Text="[CurrentRow.Item(&quot;Phone Number&quot;).ToString()]" Version="V4">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Phone Number'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_13" InteractionMode="DebuggerApi" ScopeIdentifier="4010cbc7-79d9-455b-a56c-56657f95f959" Text="[CurrentRow.Item(&quot;Phone Number&quot;).ToString()]" Version="V4">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="rpachallenge.com" CVScreenId="d2d9eb83-6a7b-4ae5-a4a4-8c91f8f2e37f" ContentHash="J4fM5EqPuEGM_79A8ZrBoQ" CvElementArea="1024, 389, 183, 38" CvType="InputBox" DesignTimeRectangle="1029, 369, 174, 58" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='vhiMR' tag='INPUT' type='' class='ng-untouched ng-pristine ng-invalid' aaname='' /&gt;" Guid="2e04c3c3-fd33-4fae-bb60-bd6880f4c3e9" InformativeScreenshot="e91829c3ded1e1fe60b66902034166f5.png" IsResponsive="True" Reference="5uJU6KKMbUCAH6eenDtpvA/MEh1dfXzLEOHb5LgspJPVA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -281,7 +283,7 @@
                       </uix:NTypeInto.VerifyOptions>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -367,7 +369,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NTypeInto_17" InteractionMode="DebuggerApi" ScopeIdentifier="4010cbc7-79d9-455b-a56c-56657f95f959" Text="[CurrentRow.Item(&quot;First Name&quot;).ToString()]" Version="V4">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'First Name'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_17" InteractionMode="DebuggerApi" ScopeIdentifier="4010cbc7-79d9-455b-a56c-56657f95f959" Text="[CurrentRow.Item(&quot;First Name&quot;).ToString()]" Version="V4">
                       <uix:NTypeInto.Target>
                         <uix:TargetAnchorable BrowserURL="rpachallenge.com" CVScreenId="d2d9eb83-6a7b-4ae5-a4a4-8c91f8f2e37f" ContentHash="JUz01L3sQ0efeY1-xI3Grg" CvElementArea="1023, 496, 184, 41" CvType="InputBox" DesignTimeRectangle="1029, 480, 174, 57" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='JHUJk' tag='INPUT' type='' class='ng-untouched ng-pristine ng-invalid' aaname='' /&gt;" Guid="2098073b-48e5-4e3e-a54a-c384196d63a8" InformativeScreenshot="0b8882261102e70119b442824ae1eabd.png" IsResponsive="True" Reference="5uJU6KKMbUCAH6eenDtpvA/9sE_cBkLQk-LNnRVpGK2nQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
                           <uix:TargetAnchorable.Anchors>
@@ -389,12 +391,12 @@
                       </uix:NTypeInto.VerifyOptions>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="416,50" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4010cbc7-79d9-455b-a56c-56657f95f959" Version="V4">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Submit'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="4010cbc7-79d9-455b-a56c-56657f95f959" Version="V4">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="rpachallenge.com" CVScreenId="d2d9eb83-6a7b-4ae5-a4a4-8c91f8f2e37f" ContentHash="DEkrR6KpXUu-JvKgn7Yi_Q" CvElementArea="609, 559, 150, 51" CvTextArea="646, 575, 71, 17" CvTextArgument="SUBMIT" CvType="Button" DesignTimeRectangle="612, 562, 145, 45" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='submit' class='btn uiColorButton' aaname='Submit' check:text='Submit' /&gt;" Guid="72a3ebee-064a-4d99-8933-86e432acb89e" InformativeScreenshot="c2da9b1747c3a30ac54d9bd40ff1efb6.png" Reference="5uJU6KKMbUCAH6eenDtpvA/8RRYGn5fwkKciplcILpPTw" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Rpa Challenge' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
                       </uix:NClick.Target>
@@ -410,7 +412,7 @@
                       </uix:NClick.VerifyOptions>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>

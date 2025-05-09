@@ -101,7 +101,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="DataAutoGeneration" sap:VirtualizedContainerService.HintSize="1064.2,1776" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="DataAutoGeneration" sap:VirtualizedContainerService.HintSize="1054,1776" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="CurrentIndex" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_dataTable" />
@@ -141,14 +141,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <utat:Address AddressResult="[Address]" City="&lt;Ville aléatoire&gt;" Country="USA" DisplayName="Given random Address" sap:VirtualizedContainerService.HintSize="479,224" sap2010:WorkflowViewState.IdRef="Address_1">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                <x:Boolean x:Key="IsPinned">False</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-          </utat:Address>
+          <utat:Address AddressResult="[Address]" City="Dallas" Country="USA" DisplayName="Given random Address" sap:VirtualizedContainerService.HintSize="479,224" sap2010:WorkflowViewState.IdRef="Address_2" />
           <utat:LastName DisplayName="Given random Last Name" sap:VirtualizedContainerService.HintSize="479,122" sap2010:WorkflowViewState.IdRef="LastName_1" LastNameResult="[Lastname]">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
